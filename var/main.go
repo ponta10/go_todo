@@ -2,7 +2,13 @@ package main
 
 import "fmt"
 
+func outer () {
+	var s4 string = "outer"
+	fmt.Println(s4)
+}
+
 func main() {
+	//明示的定義
 	var i int =  100
 	fmt.Println(i)
 
@@ -37,4 +43,6 @@ func main() {
 
 	i4 = 450
 	fmt.Println(i4)
+
+	outer()
 }
