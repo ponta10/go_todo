@@ -15,6 +15,6 @@ func main() {
 	fmt.Println(x)
 
 	//interfaceとintでは計算できない
-    x = 2
-	fmt.Println(x + 3)
+    // x = 2
+	// fmt.Println(x + 3)
 }
