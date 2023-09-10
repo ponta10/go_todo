@@ -21,6 +21,7 @@ func main() {
 	fmt.Println(sl2)
 
 	sl5 := []int{1, 2, 3, 4, 5}
+	// スライスは開始インデックスは含むが、終了インデックスは含まない
 	fmt.Println(sl5[2:4])
 	fmt.Println(sl5[:2])
 	fmt.Println(sl5[2:])

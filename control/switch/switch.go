@@ -23,7 +23,7 @@ func main() {
 	n3 := 6
 	switch {
 	case n3 > 0 && n3 < 4:
-		 fmt.Println("0 < n < 4")
+		fmt.Println("0 < n < 4")
 	case n3 > 3 && n3 < 7:
 		fmt.Println("3 < n < 7")
 	}

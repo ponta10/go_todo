@@ -3,6 +3,7 @@ package main
 import "fmt"
 
 func main() {
+	// io.Readerやio.Writer
 	//interface 初期値nil 
 	var x interface{}
 	fmt.Println(x)

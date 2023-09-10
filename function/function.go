@@ -12,6 +12,7 @@ func Div(x, y int) (int, int) {
 	return q, r
 }
 
+// 名前付きの戻り値resultがあり、return文はそのresultの現在の値を返します。
 func Double(price int) (result int) {
 	result = price * 2
 	return

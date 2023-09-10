@@ -15,8 +15,8 @@ func Sum(s ...int) int {
 func main() {
 	sl := []string{"A", "B", "C", "D", "E", "F"}
 
-	for index, value := range sl {
-		fmt.Println(index, value)
+	for _, value := range sl {
+		fmt.Println(value)
 	}
 
 	fmt.Println(Sum(1, 2, 5))

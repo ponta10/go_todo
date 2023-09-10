@@ -11,7 +11,6 @@ func main() {
 	sl = append(sl, 300)
 	fmt.Println(sl)
 
-
 	sl = append(sl, 350, 400, 500)
 	fmt.Println(sl)
 
@@ -28,6 +27,4 @@ func main() {
 	fmt.Println(len(sl3))
 
 	fmt.Println(cap(sl3))
-
-	
 }

@@ -14,7 +14,10 @@ func (u User) SayName() {
 	fmt.Println(u.Name)
 }
 
-//変更を加える場合ポインタ型
+/*
+超重要
+変更を加える場合ポインタ型
+*/
 func (u *User) SetName(name string) {
 	u.Name = name
 }

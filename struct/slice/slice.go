@@ -29,6 +29,7 @@ func main() {
 
 	users2 := make([]*User, 0)
 	users2 = append(users2, &user2, &user3)
+	fmt.Println(users2)
 	for _, u2 := range users2 {
 		fmt.Println(*u2)
 	}
